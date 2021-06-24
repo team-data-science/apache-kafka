@@ -26,9 +26,7 @@ print("start producing")
 kafka_python_producer_async(producer,bytes(msg, 'utf-8'))
 
 print("done")
-
-
-
+ 
 
 '''
 def kafka_python_producer_sync(producer, size):

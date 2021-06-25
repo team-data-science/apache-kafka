@@ -1,9 +1,8 @@
 
-import time
 from kafka import KafkaProducer
 
 # Create Message
-msg = 'Kafka Message 5'
+msg = 'Hello this is a test message'
 
 # Create a producer
 producer = KafkaProducer(bootstrap_servers='localhost:9092')
